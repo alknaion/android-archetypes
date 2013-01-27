@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.akquinet.android.archetypes;
+package net.alknaion.android.archetypes;
 
 import java.io.File;
 import java.io.IOException;
@@ -49,7 +49,7 @@ public class WithTestsArchetypeTest {
         @SuppressWarnings("unchecked")
         List<String> cli = verifier.getCliOptions();
         cli.add("-DarchetypeArtifactId=android-with-test");
-        cli.add("-DarchetypeGroupId=de.akquinet.android.archetypes");
+        cli.add("-DarchetypeGroupId=net.alknaion.android.archetypes");
         cli.add("-DarchetypeVersion=" + System.getProperty("archetype.version"));
         cli.add("-DgroupId=" + Constants.TEST_GROUP_ID);
         cli.add("-DartifactId=" + Constants.TEST_ARTIFACT_ID);
@@ -113,7 +113,7 @@ public class WithTestsArchetypeTest {
         @SuppressWarnings("unchecked")
         List<String> cli = verifier.getCliOptions();
         cli.add("-DarchetypeArtifactId=android-with-test");
-        cli.add("-DarchetypeGroupId=de.akquinet.android.archetypes");
+        cli.add("-DarchetypeGroupId=net.alknaion.android.archetypes");
         cli.add("-DarchetypeVersion=" + System.getProperty("archetype.version"));
         cli.add("-DgroupId=" + Constants.TEST_GROUP_ID);
         cli.add("-DartifactId=" + Constants.TEST_ARTIFACT_ID);
@@ -173,7 +173,7 @@ public class WithTestsArchetypeTest {
         @SuppressWarnings("unchecked")
         List<String> cli = verifier.getCliOptions();
         cli.add("-DarchetypeArtifactId=android-with-test");
-        cli.add("-DarchetypeGroupId=de.akquinet.android.archetypes");
+        cli.add("-DarchetypeGroupId=net.alknaion.android.archetypes");
         cli.add("-DarchetypeVersion=" + System.getProperty("archetype.version"));
         cli.add("-DgroupId=" + Constants.TEST_GROUP_ID);
         cli.add("-DartifactId=" + Constants.TEST_ARTIFACT_ID);
@@ -238,7 +238,7 @@ public class WithTestsArchetypeTest {
         @SuppressWarnings("unchecked")
         List<String> cli = verifier.getCliOptions();
         cli.add("-DarchetypeArtifactId=android-with-test");
-        cli.add("-DarchetypeGroupId=de.akquinet.android.archetypes");
+        cli.add("-DarchetypeGroupId=net.alknaion.android.archetypes");
         cli.add("-DarchetypeVersion=" + System.getProperty("archetype.version"));
         cli.add("-DgroupId=" + Constants.TEST_GROUP_ID);
         cli.add("-DartifactId=" + Constants.TEST_ARTIFACT_ID);
@@ -303,7 +303,7 @@ public class WithTestsArchetypeTest {
         @SuppressWarnings("unchecked")
         List<String> cli = verifier.getCliOptions();
         cli.add("-DarchetypeArtifactId=android-with-test");
-        cli.add("-DarchetypeGroupId=de.akquinet.android.archetypes");
+        cli.add("-DarchetypeGroupId=net.alknaion.android.archetypes");
         cli.add("-DarchetypeVersion=" + System.getProperty("archetype.version"));
         cli.add("-DgroupId=" + Constants.TEST_GROUP_ID);
         cli.add("-DartifactId=" + Constants.TEST_ARTIFACT_ID);

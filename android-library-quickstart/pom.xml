@@ -17,11 +17,11 @@
 
   <parent>
     <artifactId>android-archetype-project</artifactId>
-    <groupId>de.akquinet.android.archetypes</groupId>
+    <groupId>net.alknaion.android.archetypes</groupId>
     <version>1.0.10-SNAPSHOT</version>
   </parent>
 
-  <groupId>de.akquinet.android.archetypes</groupId>
+  <groupId>net.alknaion.android.archetypes</groupId>
   <artifactId>android-library-quickstart</artifactId>
   <name>Akquinet Android Archetype - android-library-quickstart</name>
   <description>Creates a skeleton for an Android library</description>

@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.akquinet.android.archetypes;
+package net.alknaion.android.archetypes;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,7 +25,7 @@ public class Helper {
     
     public static void defineArchetypeVersion() {
         if (System.getProperty("archetype.version") == null) {
-            System.setProperty("archetype.version", "1.0.9-SNAPSHOT");
+            System.setProperty("archetype.version", "1.0.10-SNAPSHOT");
         }
         System.out.println("archetype.version=" + System.getProperty("archetype.version"));
     }
